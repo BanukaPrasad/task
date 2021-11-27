@@ -1,0 +1,296 @@
+.topbar {
+    display: flex;
+    border-bottom: 1px solid grey;
+    align-items: top;
+    margin: 10px 0;
+    padding: 0px 30px;
+}
+
+.topbar-left {
+    flex: 2;
+}
+
+.topbar-middle {
+    flex: 1;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.topbar-middle h3 {
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.topbar-right {
+    flex: 2;
+    text-align: right;
+}
+
+.signup-btn {
+    background-color: transparent;
+    border: 1px solid #a19d9d;
+    border-radius: 3px;
+}
+
+i.fas.fa-search {
+    color: #ada9a9;
+    font-weight: 600;
+}
+
+/*navigation*/
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+nav.navbar.navbar-default {
+    margin-bottom: 0px;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar {
+    min-height: 0;
+}
+
+div#bs-example-navbar-collapse-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.banner {
+    background-color: #32374a;
+    color: #fff;
+    padding: 25px 50px;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.banner-content-wrapper {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.main-title {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    line-height: 50px;
+}
+
+.main-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.main-link:hover {
+    text-decoration: none;
+    color: #a19f9f;
+}
+
+.main-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.tags {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.world-tag {
+    color: #297ee7;
+}
+
+.design-tag {
+    color: #1dad35;
+}
+
+
+.link {
+    color: #2cafed;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*featuerd post area*/
+.featured-post-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.left-featured {
+    flex: 1;
+}
+
+.right-featured {
+    flex: 1;
+}
+
+
+.post-box {
+    border: 1px solid #bfbbbb;
+    border-right: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+}
+
+.featured-topic {
+    font-weight: bold;
+}
+
+.featured-date {
+    color: #bfbbbb;
+}
+
+.box-thumbnail {
+    background-color: #3a3d4c;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.box-text-content {
+    width: 70%;
+    padding: 30px 15px;
+}
+
+
+.post-box:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+/*bottom area*/
+.bottom-line {
+    margin-bottom: 50px;
+}
+
+.post-btn {
+    background: transparent;
+    border: 1px solid #9d9797;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #9d9797;
+}
+
+
+.post-btn.active {
+    border-color: #2cafed;
+    color: #2cafed;
+}
+
+.link-bar {
+    margin: 60px 0;
+}
+
+
+/*main content*/
+.main-content-title {
+    font-style: italic;
+}
+
+.content-heading {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.author {
+    color: #2cc1f4;
+}
+
+.data-and-time {
+    color: #bfbbbb;
+}
+
+.cross-line {
+    color: #bfbbbb;
+}
+
+/*sidebar*/
+.sidebar-top-box {
+    background-color: #ddd9d9;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.sidebar-title {
+    font-style: italic;
+}
+
+ul.sidebar-list {
+    list-style: none;
+    color: #2cc1f4;
+    padding-left: 0;
+}
+
+.modal-title  {
+    font-style: bold;
+}
+
+/*mobile-view*/
+@media screen and (max-width: 767px) {
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0px
+    }
+}
+
+
+
+/*tab-portrait*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+
+/*large screen*/
+@media screen and (min-width: 1400px) {
+   
+}
+
+/*windows mobile*/
+@media (max-width: 767px) and (min-width: 451px){
+}
+
+
+
+
